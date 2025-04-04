@@ -1,0 +1,65 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #3e8e41;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3e8e41;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    margin-top: 40px;
+    border-radius: 10px;
+}
